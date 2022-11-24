@@ -1,0 +1,136 @@
+/* Basic styling */
+
+*::after,::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 200Vh;
+}
+header{
+    height: 100vh;
+    display:grid;
+    grid-template-rows:150px 100%;
+    grid-template-columns:1fr ;
+    /* background-color: aqua; */
+    background-image: url(./Rectangle\ 31.png);
+    background-size: cover;
+    background: rgba(0, 0, 0,);
+    position: relative;
+    /* z-index: 100; */
+}
+
+/* navbar */
+.container{
+   display:grid;
+   grid-template-columns:1fr 1fr 1fr;
+   padding: 20px 10px ;
+}
+
+/* navbar :hover */
+
+ul li:hover{
+    text-decoration: underline;
+    /* text-decoration: black; */
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;    
+}
+.btn button{
+    margin-top: 10px;
+    height: 40px;
+    width: 120px;
+    background: #C9453B;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    font-family: 'Ribeye';
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 24px; 
+    line-height: 150%; 
+    margin: 10px;
+
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    align-content:space-around;
+    
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* header-container */
+.header-container{
+    width: 100%;
+    
+}
+
+.content{
+    margin: 0px 10rem;
+}
+
+.content h1{
+
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 120%;
+    /* or 78px */
+    color: #FFFFFF;
+}
+.heading{
+    width:32rem;
+}
+.sub-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    /* or 29px */
+    color: #FFFFFF; 
+    opacity: 0.6;
+    width: 28rem;
+}
+.header-container button{
+    /* width: px; */
+/* height: 59px; */
+/* left: 230px; */
+/* top: 597px; */
+    background: #C9453B;
+    border-radius: 5px;
+    padding: 15px 25px;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* .card-container{
+
+
+} */
