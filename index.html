@@ -1,66 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="styles.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ribeye&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trevland</title>
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <div class="logo-container">
-                <h3>Trevland</h3>
-            </div>
-            <nav>
-                <ul class="nav-items">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Location</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="btn">
-                <button>Booking now</button>
-            </div>
+      <nav>
+        <div id="nav">
+          <h1 class="logo">Trevland</h1>
+          <ul id="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <button class="pramary-btn">Booking now</button>
         </div>
-        <div class="header-container">
-            <div class="content">
-                <div class="heading">
-                    <h1>Railtrips To Here, There And Everywhere!</h1>
-                </div>
-                <div class="sub-title">
-                    <p>We all wish to start our year the best way possible and also according to a common belief if you have a great<br/> start to your.</p>
-                </div>
-                <button class="btn-header-container">Explore more</button>
-            </div>
-        </div>
+      </nav>
+      <div id="landing-page">
+        <h1>Railtrips To Here, There And Everywhere!</h1>
+        <p>
+          We all wish to start our year the best way possible and also according
+          to a common belief if you have a great start to your.
+        </p>
+        <button class="pramary-btn">Explore more</button>
+      </div>
     </header>
-    <section class="card-container">
-        <div>
-            <h2>Popular Location</h2>
-            <p>For every one of us, travel came first. We’ve spent years living as nomads, pioneers, and voyagers— from island hopping in the</p>
+    <div>
+      <div id="Popular-Location">
+        <h1>Popular Location</h1>
+        <p>
+          For every one of us, travel came first. We’ve spent years living as
+          nomads, pioneers, and voyagers— from island hopping in the
+        </p>
+        <div id="cards">
+          <!-- card -->
+          <div class="card">
+            <div class="card-img-container">
+              <img src="" alt="card-location-img" class="card-location-img" />
+            </div>
+            <h2>Istanbul, Turkey</h2>
+            <p>Istanbul is a major city in Turkey that straddles Europe.</p>
+          </div>
+          <!-- card -->
+          <!-- card -->
+          <div class="card">
+            <div class="card-img-container">
+              <img src="" alt="card-location-img" class="card-location-img" />
+            </div>
+            <h2>Istanbul, Turkey</h2>
+            <p>Istanbul is a major city in Turkey that straddles Europe.</p>
+          </div>
+          <!-- card -->
+          <!-- card -->
+          <div class="card">
+            <div class="card-img-container">
+              <img src="" alt="card-location-img" class="card-location-img" />
+            </div>
+            <h2>Istanbul, Turkey</h2>
+            <p>Istanbul is a major city in Turkey that straddles Europe.</p>
+          </div>
+          <!-- card -->
         </div>
-        <div class="cards">
-            <div class="card">
-                <img src="#" alt=""/>
-                <h4></h4>
-                <p></p>
+      </div>
+    </div>
+    <section>
+      <div id="Special-Offers">
+        <h1>Special Offers</h1>
+        <p>
+          With the New Year comes a refreshing sense of wanderlust, a longing in
+          our souls to escape to warmer climates,
+        </p>
+        <div id="carouse">
+          <!-- card -->
+          <div class="carouse-card">
+            <div class="carouse-img-container">
+              <img src="" alt="Location-img" />
             </div>
-            <div class="card special">
-                <img src="#" alt=""/>
-                <h4></h4>
-                <p></p>
+            <h1>Dizin</h1>
+            <div class="carouse-location">
+              <img src="" alt="" />
+              <h3>China</h3>
+              <p>⭐ 4.9</p>
             </div>
-            <div class="card">
-                <img src="#" alt=""/>
-                <h4></h4>
-                <p></p>
-            </div>
+            <h2>7 Day 8 Nights</h2>
+            <p>$850/person</p>
+          </div>
+          <!-- card -->
         </div>
+        <div id="carouse-sliders">
+          <img src="" alt="left-arrow" id="left-arrow" />
+          <img src="" alt="slider" id="slider" />
+          <img src="" alt="right-arrow" id="right-arrow" />
+        </div>
+      </div>
     </section>
-</body>
+    <article>
+      <div id="blog-news">
+        <h1>From Blog & News</h1>
+        <p>
+          Welcome to Community Conversations, a new interview series featuring
+          Intrepid travellers, creatives and activists in our community.
+        </p>
+        <div id="news">
+          <div class="blog-card">
+            <div class="blog-img-container">
+              <img src="" alt="blog-img" />
+            </div>
+            <h1>Banff National Park</h1>
+            <p>
+              Banff National Park lies in the heart of the majestic Rocky
+              Mountains in the province of Alberta, and showcases some of
+              Canada's most beautiful scenery. Turquoise-colored lakes,
+              snow-capped peaks, and glaciers are all easily accessible
+            </p>
+            <h3>@thomasalva_adison</h3>
+          </div>
+        </div>
+      </div>
+    </article>
+    <footer>
+      <div id="footer">
+        <div id="footer-content">
+          <h1 class="logo">Trevland</h1>
+          <p>Contact us</p>
+          <a href="#">@shovasatkhira88.com</a>
+          <div id="social-media">
+            <a href="#"><img src="" alt="social-media-img" /></a>
+            <a href="#"><img src="" alt="social-media-img" /></a>
+            <a href="#"><img src="" alt="social-media-img" /></a>
+            <a href="#"><img src="" alt="social-media-img" /></a>
+          </div>
+        </div>
+        <div id="footer-links">
+          <ul>
+            <h2>Services</h2>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Our story</a></li>
+            <li><a href="#">Benefits</a></li>
+            <li><a href="#">Branding</a></li>
+          </ul>
+          <ul>
+            <h2>Legal</h2>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privecy Policy</a></li>
+            <li><a href="#">Terms of use</a></li>
+          </ul>
+        </div>
+        <div id="footer-contact">
+          <h2>SUBSCRIBE NOW</h2>
+          <div id="email-container">
+            <input type="email" name="" id="" placeholder="Email" />
+            <button class="secondary-btn">Send</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
 </html>
