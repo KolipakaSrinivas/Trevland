@@ -1,0 +1,1 @@
+const openNavbar = () => document.body.classList.toggle('open')
