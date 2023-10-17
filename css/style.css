@@ -1,7 +1,7 @@
 /* Header */
 
 header {
-  background: url(./public/images/Landing-pages-bg/Header-img.svg);
+  background: url(../public//images/Landing-pages-bg/Header-img.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -43,7 +43,7 @@ header {
   margin: 9px 33px;
   z-index: 5;
   cursor: pointer;
-  background: url(./public/icons8-menu-50.png);
+  background: url(../public/icons8-menu-50.png);
   width: 45px;
   height: 45px;
   background-position: center;
@@ -61,7 +61,7 @@ body.open .mask {
 }
 
 body.open #menu {
-  background: url(./public/menu-32close.png);
+  background: url(../public/menu-24close.png);
   width: 30px;
   height: 30px;
   background-repeat: no-repeat;
